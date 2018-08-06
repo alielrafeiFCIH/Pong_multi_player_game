@@ -1,0 +1,8 @@
+Installing library in D:\Books\level-2\Second-term\Pl-3\Project_pl3\pro\.cabal-sandbox\x86_64-windows-ghc-8.2.2\GLURaw-2.0.0.4-CRx3zL0jYjlL1eIpMKdKB
+cks.hs, dist\dist-sandbox-86631a29\build\Graphics\GLU\Callbacks.o )
+[2 of 6] Compiling Graphics.GLU.Tokens ( src\Graphics\GLU\Tokens.hs, dist\dist-sandbox-86631a29\build\Graphics\GLU\Tokens.o )
+[3 of 6] Compiling Graphics.GLU.TypesInternal ( src\Graphics\GLU\TypesInternal.hs, dist\dist-sandbox-86631a29\build\Graphics\GLU\TypesInternal.o )
+[4 of 6] Compiling Graphics.GLU.Types ( src\Graphics\GLU\Types.hs, dist\dist-sandbox-86631a29\build\Graphics\GLU\Types.o )
+[5 of 6] Compiling Graphics.GLU.Functions ( src\Graphics\GLU\Functions.hs, dist\dist-sandbox-86631a29\build\Graphics\GLU\Functions.o )
+[6 of 6] Compiling Graphics.GLU     ( src\Graphics\GLU.hs, dist\dist-sandbox-86631a29\build\Graphics\GLU.o )
+cabal: Leaving directory 'C:\Users\ali\AppData\Local\Temp\cabal-tmp-15212\GLURaw-2.0.0.4'

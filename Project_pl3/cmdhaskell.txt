@@ -1,0 +1,34 @@
+ Commands available from the prompt:
+
+   %lt;stmt>                     evaluate/run %lt;stmt>
+   :add %lt;filename> ...        add module(s) to the current target set
+   :browse [*]%lt;module>        display the names defined by %lt;module>
+   :cd %lt;dir>                  change directory to %lt;dir>
+   :def %lt;cmd> %lt;expr>          define a command :%lt;cmd>
+   :help, :?                  display this list of commands
+   :info [%lt;name> ...]         display information about the given names
+   :load %lt;filename> ...       load module(s) and their dependents
+   :module [+/-] [*]%lt;mod> ... set the context for expression evaluation
+   :reload                    reload the current module set
+
+   :set %lt;option> ...          set options
+   :set args %lt;arg> ...        set the arguments returned by System.getArgs
+   :set prog %lt;progname>       set the value returned by System.getProgName
+
+   :show modules              show the currently loaded modules
+   :show bindings             show the current bindings made at the prompt
+
+   :type %lt;expr>               show the type of %lt;expr>
+   :undef %lt;cmd>               undefine user-defined command :%lt;cmd>
+   :unset %lt;option> ...        unset options
+   :quit                      exit GHCi
+   :!%lt;command>                run the shell command %lt;command>
+
+ Options for `:set' and `:unset':
+
+    +r                 revert top-level expressions after each evaluation
+    +s                 print timing/memory stats after each evaluation
+    +t                 print type after evaluation
+    -%lt;flags>           most GHC command line flags can also be set here
+                         (eg. -v2, -fglasgow-exts, etc.)
+Common Architecture for Building Applications and Libraries(cabal)
